@@ -1,0 +1,24 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+.venv/
+
+#Ignore env
+.env
+
+# Ignore Nuitka/PyInstaller build outputs
+build/
+dist/
+*.spec
+
+# Ignore logs or temporary files
+*.log
+*.tmp
+*.bak
+
+# If using VSCode
+.vscode/

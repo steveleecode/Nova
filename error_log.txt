@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "d:\git\storage_assistant\main.py", line 8, in <module>
+    app = StorageAssistant()
+  File "d:\git\storage_assistant\src\gui\app.py", line 35, in __init__
+    self.progress_bar.set(0)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'StorageAssistant' object has no attribute 'progress_bar'
