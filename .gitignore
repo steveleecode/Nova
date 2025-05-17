@@ -10,10 +10,11 @@ __pycache__/
 #Ignore env
 .env
 
-# Ignore Nuitka/PyInstaller build outputs
+# Ignore Nuitka build outputs and nsis files
 build/
 dist/
 *.spec
+FathomInstaller.exe
 
 # Ignore logs or temporary files
 *.log
